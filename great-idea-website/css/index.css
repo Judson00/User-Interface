@@ -64,43 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* set background color for body */
 body{
-	background-color:white;
+	background-color:whitesmoke;
 }
 
+/* set styles for entire container */
 .container{
 	width: 1000px;
 	margin: 0 auto;
 	padding: 40px;
 }
 
-a{
-	color: lightgray;
-	text-decoration: none;
-}
+/*set style for header*/
 
-/*header*/
-
-header{
+.container header{
 	width: 100%;
 	text-align: right;
 	margin-bottom: 40px;
 }
 
-header nav{
-	display:inline-block;
-}
-
-header nav a{
+/* set styles for anchor tags */
+.container header nav a{ 
+	color: lightslategrey;
+	text-decoration: none;
 	display:inline-block;
 	margin: 20px;
 }
 
-header nav a:first-child{
+.container header nav a:hover{
+	color: black;
+}
+
+.container header nav a:first-child{
 	margin-left: 20px;
 }
 
-header nav .logo{
+.container header nav .logo{
 	vertical-align: middle;
 	padding-right:60px;
 	margin-left: 80px;
@@ -113,7 +114,7 @@ section{
 }
 
 /*Innovation Section*/
-section.section-banner{
+section.marketing-banner{
 	border-bottom: 1px solid black;
 	padding-bottom: 50px;
 }
@@ -138,7 +139,7 @@ div.innovation button{
 	padding: 4px;
 }
 
-section .hero-image{
+section .header-image{
 	width: 35%;
 	display: inline-block;
 	text-align: center;
@@ -164,7 +165,7 @@ section.content-top div:first-child{
 	margin-right: 40px;
 }
 
-.middle-img{
+.mid-page-accent{
 	width: 100%;
 }
 
