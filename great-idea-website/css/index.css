@@ -54,11 +54,11 @@ table {
 
 html, body {
 	height: 100%;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Hind Madurai', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Bangers', cursive;
+	font-family: 'Press Start 2P', cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 }
@@ -148,7 +148,7 @@ section div.innovation{
 
 /* styles for Innovation On and Demand (they are in span elements) */
 div.innovation h1 span{
-	font-size: 60px;
+	font-size: 46px;
 	display:block;
 }
 
