@@ -99,7 +99,7 @@ body{
 .container header nav{
 	background-color: pink;
 	position: fixed; 
-	top: -20px;
+	top: -8px;
 	vertical-align: 0;
 }
 
