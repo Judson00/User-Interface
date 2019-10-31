@@ -63,6 +63,15 @@ h1, h2, h3, h4, h5 {
 	margin-bottom: 15px;
 }
 
+
+
+
+
+
+
+
+
+
 /* Your code starts here! */
 
 /* set background color for body */
@@ -77,15 +86,24 @@ body{
 	padding: 40px;
 }
 
-/*set style for header*/
+/*set style for header, including nav, links, and logo*/
 
 .container header{
 	width: 100%;
 	text-align: right;
 	margin-bottom: 40px;
+	margin-top: 10%;
 }
 
-/* set styles for anchor tags */
+/* style for nav area */
+.container header nav{
+	background-color: pink;
+	position: fixed; 
+	top: -20px;
+	vertical-align: 0;
+}
+
+/* style for links in nav area */
 .container header nav a{ 
 	color: lightslategrey;
 	text-decoration: none;
@@ -93,32 +111,31 @@ body{
 	margin: 20px;
 }
 
+/* hover option for nav links */
 .container header nav a:hover{
 	color: black;
 }
 
+/* sets first child margin and border (services link) */
 .container header nav a:first-child{
 	margin-left: 20px;
 }
 
+/* style for logo */
 .container header nav .logo{
 	vertical-align: middle;
 	padding-right:60px;
 	margin-left: 80px;
 }
 
-
-section{
-	margin: 24px 0;
-	/*//padding: 0 40px*/
-}
-
-/*Innovation Section*/
+/*Set styles for marketing-banner*/
 section.marketing-banner{
 	border-bottom: 1px solid black;
 	padding-bottom: 50px;
+	margin: 24px 0;
 }
 
+/* styling innovation, on, and demand along with the button */
 section div.innovation{
 	width:50%;
 	display: inline-block;
@@ -129,89 +146,103 @@ section div.innovation{
 	margin-right: 70px;
 }
 
+/* styles for Innovation On and Demand (they are in span elements) */
 div.innovation h1 span{
 	font-size: 60px;
 	display:block;
 }
 
+/* styling for the button */
 div.innovation button{
 	width: 160px;
 	padding: 4px;
 }
 
+/* styling for the image (header-img, round pic of code snippet) */
 section .header-image{
 	width: 35%;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+	background-image: ;
 }
 
-/*content-top*/
+/* styles for content-top */
 section.content-top{
 	width: 100%;
 }
 
+/* styling for the paragraphs in content-top (feature and about) */
 section div p{
 	text-align:justify;
 	line-height: 1.25em;
 }
 
+/* styling for divs in content top (feature and about divs) */
 section.content-top div{
 	width: 47%;
 	display: inline-block;
 }
 
+/* styling for first-child (feature) */
 section.content-top div:first-child{
-	margin-right: 40px;
-}
+	margin-right: 40px;}
 
+/* styling for mid-page-accent pic */
 .mid-page-accent{
 	width: 100%;
 }
 
 
-/*content-bottom*/
+/* styling for content-bottom (services product, vision) */
 section.content-bottom{
 	width: 100%;
 	border-bottom:1px solid black;
 	padding-bottom: 30px
 }
 
+/* styling for content-bottom divs (service, product, vision) */
 section.content-bottom div{
 	width: 30%;
 	margin-right: 22px;
 	display: inline-block;
 }
 
+/* styling for content-bottom last child (service) */
 section.content-bottom div:last-child{
 	margin-right: 40px;
 }
 
+/* styling for content-bottom paragraphs (service, product, vision) */
 section.content-bottom div p{
 	text-align: justify;
 	display: inline-block;
 }
 
-/*footer section*/
+/* styling for footer section*/
 footer{
 	width: 100%;
 	line-height: 1.25em;
 }
 
+/* styling for copyright */
 footer div.copyright{
 	padding: 20px 0 40px 0;
 	text-align: center;
 }
 
+/* styling for contact info */
 footer div.contact{
 	width: 200px;
 }
 
+/* styling for contact info (strong elements (address, phone, email)) */
 footer strong{
 	display: block;
 	margin-bottom: 10px;
 }
 
+/* styling for address */
 footer .address{
 	width:100%;
 }
